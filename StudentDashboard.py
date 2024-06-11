@@ -30,6 +30,7 @@ class StudentDashboard:
         self.__avg_grade = ModuleAvgGrade(self.__console)
 
     def enrole(self, matrikelNr, studiumId):
+        #student wird mit angegebener matrikelnummer und studium-id eingeschrieben
         sel_student : Student = self.__studentService.get_student(matrikelNr)
         sel_studium : Studium = self.__courseService.get_studium(studiumId)
         sel_student.EingeschriebenesStudium = sel_studium
@@ -43,24 +44,29 @@ class StudentDashboard:
     def run(self):
         input = ""
         self.render()
+        # solange nicht quit eingegeben wird läuft das Programm
         while input != "quit":
             input = self.__console.input(f"dashboard@[green]{self.__sel_student.MatrikelNr}[/green]>")
             args = input.split()
 
+            #wenn eingabe vorhanden
             if(len(args) > 0):
                 cmd = args[0]
+                #wenn eingabe = note
                 if(cmd == "note"):
                     try:
                         module_choices = list(map(lambda x: f"{x.ModuleCode}", self.__sel_student.EingeschriebenesStudium.Module))
                         sel_mod_code = Prompt.ask("Wählen sie ein Modul aus", choices=module_choices)
                         note = 100.0
 
+                        #solange fragen bis note im gültigen bereich ist
                         while(note > 5.0):
                             note = FloatPrompt.ask("Mit welcher Note haben Sie das Modul abgeschlossen?")
                             if(note < 1.0):
                                 note = 0.0
 
                         self.update_note(sel_mod_code, note)
+                        #csv speichern
                         self.__studentService.save_student(self.__sel_student)
                         self.render()
                     except:
