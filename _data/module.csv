@@ -1,0 +1,33 @@
+StudiumId;ModulName;ModulCode;ECTS
+ARTFIC;Artificial Intelligence;DLBDSEAIS01_D;5
+ARTFIC;Einführung in das wissenschaftliche Arbeiten für IT und Technik;DLBWIRITT01;5
+ARTFIC;Einführung in die Programmierung mit Python;DLBDSIPWP01_D;5
+ARTFIC;Mathematik Analysis;DLBBIMD01;5
+ARTFIC;Kollaboratives Arbeiten;DLBKA01;5
+ARTFIC;Statistik Wahrscheinlichkeit und deskriptive Statistik;DLBDSSPDS01_D;5
+ARTFIC;Objektorientierte und funktionale Programmierung mit Python;DLBDSOOFPP01_D;5
+ARTFIC;Mathematik Lineare Algebra;DLBBIM01;5
+ARTFIC;Interkulturelle und ethische Handlungskompetenz;DLBIHK01;5
+ARTFIC;Statistik Schließende Statistik;DLBDSSIS01_D;5
+ARTFIC;Cloud Computing;DLBDSCC01_D;5
+ARTFIC;Cloud Programming;DLBSEPCP01_D;5
+ARTFIC;Maschinelles Lernen Supervised Learning;DLBDSMLSL01_D;5
+ARTFIC;Maschinelles Lernen Unsupervised Learning und Feature Engineering;DLBDSMLUSL01_D;5
+ARTFIC;Neuronale Netze und Deep Learning;DLBDSNNDL01_D;5
+ARTFIC;Einführung in Computer Vision;DLBAIICV01_D;5
+ARTFIC;Projekt Computer Vision;DLBAIPCV01_D;5
+ARTFIC;Einführung in das Reinforcement Learning;DLBAIIRL01_D;5
+ARTFIC;Einführung in NLP;DLBAIINLP01_D;5
+ARTFIC;Projekt NLP;DLBAIPNLP01_D;5
+ARTFIC;Einführung in Datenschutz und IT-Sicherheit;DLBISIC01;5
+ARTFIC;Data Science Software Engineering;DLBDSDSSE01_D;5
+ARTFIC;Projekt: Vom Modell zum Produktvertrieb;DLBDSMTP01_D;5
+ARTFIC;Seminar Ethische Fragen der Data Science;DLBDSSECDS01_D;5
+ARTFIC;User Experience;DLBMIUEX01;5
+ARTFIC;UX-Projekt ODER Projekt Edge Al;DLBMIUEX02 OR DLBAIPEAI01_D;5
+ARTFIC;Einführung in die Robotik;DLBROIR01_D;5
+ARTFIC;Agiles Projektmanagement;DLBDBAPM01;5
+ARTFIC;WAHLPFLICHTMODUL A;WAHL_A;10
+ARTFIC;WAHLPFLICHTMODUL B;WAHL_B;10
+ARTFIC;WAHLPFLICHTMODUL C;WAHL_C;10
+ARTFIC;Bachelorarbeit;BBAK01 BBAK02;10
